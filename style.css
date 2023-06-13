@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("polygon-scatter-haikei.png");
+  background-color: lightblue;
+}
+
+h1 {
+  text-indent: 150px;
+  color: white;
+  border: 10px beige solid;
+  padding: 6px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  background-color: dark blue;
+  /* margin-right: 0; */
+  position: absolute;
+  right: 0;
+  font-family: 'Julius Sans One', sans-serif;
+  ;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+li a:hover {
+  /* background-color: #5876a7; */
+  color: #5876a7;
+}
+
+.active {
+  background-color: #a676d5;
+}
+
+.overview1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: 45px;
+}
+
+.button1 {
+  border-radius: 4px;
+  background-color: #000000;
+  opacity: 60%;
+  border: none;
+  color: #d9d9d9;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  /* margin: 5px; */
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.project1 {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects {
+  color: white;
+  font-size: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Bebas Neue';
+  text-indent: 20px;
+}
+
+.project2{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project3{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button2{
+
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px purple;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
